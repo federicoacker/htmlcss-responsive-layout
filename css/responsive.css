@@ -1,1 +1,37 @@
 /* Soluzione qui */
+@media screen and (min-width:768px){
+    #topbar{
+        justify-content:flex-start;
+    }
+    .ads{
+        display:block;
+    }
+    main{
+        padding:40px;
+    }
+    .recipe-origin{
+        display:inline;
+    }
+    .recipe-name{
+        font-size:30px;
+    }
+    .quick-notes>ul{
+        display:flex;
+        column-gap:10px;
+        justify-content:flex-start;
+        align-items:center;
+        flex-wrap:wrap;
+    }
+    .quick-notes>ul li{
+        flex-basis: calc((100% / 3) - ((10px * 2) / 3));
+        flex-shrink: 0;
+    }
+    .social-networks>.btn{
+        flex-basis: calc((100% / 5) - ((20px * 4) / 5));
+        font-size: 1.2em;
+    }
+    .clearfix>img{
+        float:left;
+        margin-right:20px;  
+    }
+}
