@@ -76,13 +76,12 @@
     in modo che non cresca a dismisura in altezza quando aumenta la width*/
     .recipe-card{
         display:flex;
-        max-height:400px;
     }
     /*Impostiamo la size di video e recipe-info usando flex-grow e 
     dandogli una max-height */
     .recipe-video{
         flex-grow:8;
-        max-height:400px;
+        max-height:calc(1080px * 9 / 16 - 150px);
     }
     .recipe-info{
         flex-grow:1;
@@ -97,6 +96,7 @@
     body > footer {
         display:flex;
         justify-content:space-between;
+        align-items:center;
     }
     /*Allineamo a sinistra il testo nell'address del footer, 
     per rispettare l'immagine di template */
