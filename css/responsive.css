@@ -6,6 +6,7 @@
     .clearfix>img{
         float:left;
         margin-right:5px;
+        margin-top:10px;
     }
     /*Aumentiamo la dimensione dei bottoni dei social facendogli occupare una width calcolata
     che rispecchi lo screenshot di template */
